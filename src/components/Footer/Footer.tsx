@@ -1,3 +1,4 @@
+
 import React from "react";
 import SocialLink from "components/SocialLink";
 import githubicon from "assets/github_icon.png";
@@ -13,43 +14,29 @@ function Footer() {
   return (
     <FooterContainer>
       <div className="disclaimer">
-        Complexity and risk are inherent in
-        Cryptocurrency transactions that fit your goals
-        your circumstances and financial situation. You should only buy when you have enough condition        
-        Many factors are beyond $BACKUP's control $BNB $SUNI will affect
-        market prices, including, but not limited to, countries and
-        international economics, finance, regulation, politics, terror,
-        military and other events, adverse or cumulative news events extreme and
-        openly and generally market extremes, uncertain and volatile
-        condition. Huge price changes can happen at any time, resulting in
-        the possibility of loss of value, total or partial loss of purchasing power,
-        and the difficulty or total inability to sell or exchange your digital
-        currency. $BACKUP, $SUNI will have no obligation to buy
-        or let a broker buy you back your cryptocurrency in
-        cases where there is no viable market to buy
-        the same, similar. No content published on this website constitutes
-        Recommend that any particular cryptocurrency, portfolio's
-        Cryptocurrencies, trading or investment strategies that suit any
-        specific person. There is no information provider or their affiliates
-        will advise you personally about the nature, potential, or value
-        the suitability of any particular cryptocurrency, its portfolio
-        cryptocurrency, trading, investment strategy or other matters. The
-        Products and services featured on this website can only be purchased within
-        the jurisdictions in which their marketing and distribution are authorized.
-        Experience the risks and odds for yourself that may work in your favor.
-        Before using any of the features on this DApp, you should secure one
-        have complete working knowledge of liquidity pools and impermanent losses. Because
-        Using this application, it is acknowledgment of understanding the risks.
+        None of the content published on this site constitutes a
+        recommendation that any particular cryptocurrency, portfolio of
+        cryptocurrencies, transaction or investment strategy is suitable for any
+        specific person. None of the information providers or their affiliates
+        will advise you personally concerning the nature, potential, value or
+        suitability of any particular cryptocurrency, portfolio of
+        cryptocurrencies, transaction, investment strategy or other matter. The
+        products and services presented on this website may only be purchased in
+        jurisdictions in which their marketing and distribution are authorized.
+        Experience at your own risk and may the odds be ever in your favor.
+        Before using any features on this DApp, it is advised to make sure one
+        has a full working knowledge of liquidity pools and impermanent loss. By
+        using this app, it is an acknowledgement of understanding the risks.
       </div>
       <div className="links">
         <SocialLink
-          href="https://github.com/jaybinancedev/"
+          href="https://github.com/jaybinancedev"
           icon={githubicon}
           title="Github"
           color="#95A5A6"
         />
-        { </ a
-          href="https://github.com/jaybinancedev"
+        {/* <a
+          href="https://github.com/zzz-finance/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -58,7 +45,7 @@ function Footer() {
           </Button>
         </a>
         <a
-          href="https://twitter.com/BackupFinance/"
+          href="https://twitter.com/zzzfinance/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -67,7 +54,7 @@ function Footer() {
           </Button>
         </a>
         <a
-          href="https://backupfinance.medium.com/"
+          href="https://medium.com/@zzzfinance/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -75,11 +62,11 @@ function Footer() {
             Medium
           </Button>
         </a>
-        <a href="mailto:bupbsc@backup.finance">
+        <a href="mailto:hello@zzz.finance">
           <Button className="button-footer" icon={emailicon}>
             Email
           </Button>
-        </a> /}
+        </a> */}
       </div>
     </FooterContainer>
   );
