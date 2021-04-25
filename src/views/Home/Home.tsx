@@ -37,18 +37,18 @@ function typeWriter(setTyped: Function) {
 const infoBoxes = [
   {
     title: "Community First",
-    text: "The protocol is determined by the community. Proposals are made by and voted on by holders of ZZZ / NAP.",
+    text: "The protocol is determined by the community. Proposals are made by and voted on by holders of BACKUP / BACKGAS.",
     icon: <img src={communityIcon} alt="community" />,
   },
   {
-    title: "NAP Token",
+    title: "Back Gas Token",
     text:
-      "NAP is the an extra layer for the economy. It act's as a gas token in the system. It can be spent to increase your yields by the Boost functionality. Revenues from purchases are halved 50% towards future products and 50% towards development fund.",
+      "BGAS is the an extra layer for the economy. It act's as a gas token in the system. It can be spent to increase your yields by the Boost functionality. Revenues from purchases are halved 50% towards future products and 50% towards development fund.",
     icon: <img src={napIcon} alt="community" />,
   },
   {
     title: "Partnerships",
-    text: "ZZZ is committed to continuing innovations with other Ethereum projects.",
+    text: "Backup is committed to continuing innovations with other Binance Smart Chain projects.",
     icon: <img src={connectionIcon} alt="connection" />,
   },
 ];
@@ -65,10 +65,10 @@ function Home() {
         <HomeTitle>
           <div id="title">{typed && title}</div>
           <SocialLinks>
-            <SocialLink title="Telegram" icon={telegramIcon} href="https://t.me/ZZZfinance/" />
-            <SocialLink title="Twitter" icon={twitterIcon} href="https://twitter.com/zzzfinance/" />
-            <SocialLink title="Medium" icon={mediumIcon} href="https://medium.com/@zzzfinance/" />
-            <SocialLink title="Discord" icon={discordIcon} href="https://discord.gg/DQXmtB3" />
+            <SocialLink title="Telegram" icon={telegramIcon} href="https://t.me/BACKUPSWAP/" />
+            <SocialLink title="Twitter" icon={twitterIcon} href="https://twitter.com/BACKUP_FINANCE/" />
+            <SocialLink title="Medium" icon={mediumIcon} href="https://backupfinance.medium.com" />
+            <SocialLink title="Discord" icon={discordIcon} href="https://discord.gg/mVjUXPMZ3x" />
           </SocialLinks>
         </HomeTitle>
       </Layout.ExtraContent>
@@ -79,20 +79,22 @@ function Home() {
               <News />
               <div className="info-content">
                 <img src={zzzlogo} alt="zzz" className="zzz-logo" />
-                <h2>What is ZZZ?</h2>
+                <h2>What is Backup?</h2>
                 <p>
-                  ZZZ is a community-centered DeFi project by the people, for the people. The decisions and actions of ZZZ are made by its
-                  members and community to assure equity and fairness for all.
+                  Backup (a Japanese word for Bakkuappu) is an automated interest rate base protocol built for Binance Smart Chain Massive Users, 
+                  providing programmable liquidity to the platform.
+                  Backup Finance is a protocol that can unlock the open universe of Finance apps, in short, it's a protocol of lending and borrowing, betting, farming, 
+                  and swaps to reward participants. widely available for their operations in an algorithmic autonomous ecosystem that does not require KYC provision.
                 </p>
                 <p>It all started by a single developer and as of now the project is handed to the community to grow forwards.</p>
                 <p>
                   It is a new form of governance system. A think-tank. A place where innovation, entrepreneurship, and technological
-                  advancements are the priority, creating a much needed utility focus to the blockchain space. The value of ZZZ is
+                  advancements are the priority, creating a much needed utility focus to the blockchain space. The value of Backup is
                   determined by the contribution and innovation of the community as a whole.
                 </p>
-                <h2>Why ZZZ?</h2>
+                <h2>Why Backup?</h2>
                 <p>
-                  Owning <b>$ZZZ</b> enables your voice to be heard regarding the future of the project by enabling you to vote on and
+                  Owning <b>$Backup</b> enables your voice to be heard regarding the future of the project by enabling you to vote on and
                   initiate proposals for the protocol.
                 </p>
                 <p>
@@ -100,32 +102,32 @@ function Home() {
                   where users pay no fees is coming later.
                 </p>
                 <p>
-                  Owning ZZZ provides you with unique bonuses on our DeFi-platform by giving your deposited assets a yield bonus according
-                  to the amount of ZZZ you are holding. So you are gaining the upper hand.
+                  Owning Backup provides you with unique bonuses on our DeFi-platform by giving your deposited assets a yield bonus according
+                  to the amount of Backup you are holding. So you are gaining the upper hand.
                 </p>
                 <h2>Okay, anything more?</h2>
                 <p>
-                  Mandatory part of the ZZZ ecosystem is its <b>collaborations</b> with other projects in the space to expand the reach of
+                  Mandatory part of the Backup ecosystem is its <b>collaborations</b> with other projects in the space to expand the reach of
                   the ecosystem.
                 </p>
                 <p>
-                  The community knows that ZZZ keeps on introducing new interesting projects and that we require the projects to meet a
+                  The community knows that Backup keeps on introducing new interesting projects and that we require the projects to meet a
                   certain standard.
                 </p>
                 <p>
-                  ZZZ is able to provide a platform for the already established or for the upcoming projects who need the initial push.
+                  Backup is able to provide a platform for the already established or for the upcoming projects who need the initial push.
                   Combined with our expertise and the community, there is no doubt that greater results will be achieved by collaborating
                   rather than competing.
                 </p>
                 <h2>Tokenomics</h2>
                 <p>
-                  A capped supply of <b>20,000 $ZZZ</b> has been distributed to the community. There was no presale, dev or VC wallets.
+                  A capped supply of <b>20,000,000 $Backup</b> Presale 5,000,000 Open date 30.04.2021 12:00 PM (UTC).
                 </p>
                 <p>
-                  A capped supply of <b>20,000,000 $NAP</b> has been created to fuel the ecosystem and its development.
+                  A capped supply of <b>500,000,000 $BGAS</b>Q.3 2021 distributed to the community.
                 </p>
                 <p>
-                  A dynamic supply of <b>$DREAM</b> has been created for further use cases including a gamifying-experience
+                  A dynamic supply of <b>100,000,000 $SUNI</b> has been created for further use cases including a gamifying-experience.
                 </p>
               </div>
             </div>
@@ -165,7 +167,7 @@ function Home() {
               </p>
             </div>
             <a
-              href="https://medium.com/zzzfinance/certik-completes-audit-of-zzz-smart-contracts-c925ae8786d"
+              href="https://backupfinance.medium.com"
               target="_blank"
               rel="noopener noreferrer"
               className="button"
