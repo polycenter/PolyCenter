@@ -19,7 +19,7 @@ import { Certik, HomeContent, HomeTitle, InfoBox, InfoBoxes, Introduction } from
 import Listings from "components/Listings/Listings";
 
 let i = 0;
-const title = "Decentralized finance reimagined. For the people, by the people.";
+const title = "Yield-farming, swap, vaults and staking pools. Regular reward intervals. Everything pre-defined, no rug-pulls possible.";
 
 function typeWriter(setTyped: Function) {
   if (i < title.length) {
@@ -37,7 +37,7 @@ function typeWriter(setTyped: Function) {
 const infoBoxes = [
   {
     title: "Community First",
-    text: "The protocol is determined by the community. Proposals are made by and voted on by holders of BACKUP / BACKGAS.",
+    text: "The protocol is determined by the community. Proposals are made by and voted on by holders of BACKUP/BNB.",
     icon: <img src={communityIcon} alt="community" />,
   },
   {
@@ -121,12 +121,11 @@ function Home() {
                 </p>
                 <h2>Tokenomics</h2>
                 
-                <p> A capped supply of <b> 20,000,000 $Backup </b> Presale 5,000,000 Open date 30.04.2021 12:00 PM (UTC).</p>
+                <p> A capped supply of <b> 20,000,000 $Backup </b> Presale 5,000,000 open date  <b>30.04.2021 12:00 PM (UTC).</b> </p>
                 
                 <p>A capped supply of <b> 500,000,000 $Bgas </b> Q.3 2021 distributed to the community. </p>
                
-                <p> A dynamic supply of <b> 100,000,000 $Suni </b> has been created for further use cases including a gamifying-experience.</p>
-                
+                <p> A dynamic supply of <b> 100,000,000 $Suni </b> created for further use cases including a game experience.</p>
               </div>
             </div>
             <div className="just-a-container">
