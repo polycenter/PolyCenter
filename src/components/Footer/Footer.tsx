@@ -48,7 +48,7 @@ function Footer() {
           title="Github"
           color="#95A5A6"
         />
-         <a
+        { </ a
           href="https://github.com/jaybinancedev"
           target="_blank"
           rel="noopener noreferrer"
@@ -79,7 +79,7 @@ function Footer() {
           <Button className="button-footer" icon={emailicon}>
             Email
           </Button>
-        </a> 
+        </a> /}
       </div>
     </FooterContainer>
   );
