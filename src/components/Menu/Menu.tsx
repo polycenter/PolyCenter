@@ -27,7 +27,7 @@ function Menu() {
   return (
     <MenuAbsoluteWrapper>
       <MenuContainer>
-        <img src={ZzzIcon} alt="zzz" />
+        <img src={ZzzIcon} alt="Backup" />
         {views.map((v) => (
           <LinkContainer
             key={`menu-${v.name}`}
