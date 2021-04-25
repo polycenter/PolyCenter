@@ -20,7 +20,7 @@ function Newsfeed() {
       className="twitter-timeline"
       data-width="375"
       data-height="525"
-      href="https://twitter.com/zzzfinance?ref_src=twsrc%5Etfw"
+      href="https://twitter.com/BACKUP_FINANCE?ref_src=twsrc%5Etfw"
       style={{
         display: window?.twttr?.widgets ? "flex" : "inital",
         justifyContent: window?.twttr?.widgets && "center",
