@@ -78,9 +78,9 @@ function Governance() {
                 Total rounds: {totalRounds} ({totalRounds - currentRound}{" "}
                 remaining)
               </h3>
-              <h4>{totalPerRound} NAP per round total.</h4>
+              <h4>{totalPerRound} Bgas per round total.</h4>
               <h3 className="total-naps">
-                {totalNap} NAP total to be distributed over the {totalRounds}{" "}
+                {totalNap} Bgas total to be distributed to {totalRounds}{" "}
                 rounds.
               </h3>
               {account && (
@@ -95,7 +95,7 @@ function Governance() {
                         Per round: <b>{userClaimPerRound}</b>
                       </div>
                       <div className="token-limit-round">
-                        You have claimed: <b>{tokensClaimed}</b> NAP
+                        You have claimed: <b>{tokensClaimed}</b> Bgas
                       </div>
                       <h5>
                         Missing a round does not matter, you will receive it on
@@ -115,7 +115,7 @@ function Governance() {
                           claimCompensation(library.getSigner())
                         }
                       >
-                        Claim NAP{" "}
+                        Claim Bgas{" "}
                         {currentRound === 0 && (
                           <div
                             style={{
