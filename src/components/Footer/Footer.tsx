@@ -13,47 +13,43 @@ function Footer() {
   return (
     <FooterContainer>
       <div className="disclaimer">
-        $ZZZ, $NAP or $DREAM are not an official ETH project. $ZZZ, $NAP or
-        $DREAM are an experimental token. Before purchasing $ZZZ, $NAP or
-        $DREAM, or any other tokens mentioned on this site or otherwise, you
-        must ensure that the nature, complexity and risks inherent in the
-        trading of cryptocurrency are suitable for your objectives in light of
-        your circumstances and financial position. You should only purchase
-        $DREAM to have fun and to experience this experimental token with us.
-        Many factors outside of the control of $ZZZ, $NAP or $DREAM will effect
-        the market price, including, but not limited to, national and
-        international economic, financial, regulatory, political, terrorist,
-        military, and other events, adverse or positive news events and
-        publicity, and generally extreme, uncertain, and volatile market
-        conditions. Extreme changes in price may occur at any time, resulting in
-        a potential loss of value, complete or partial loss of purchasing power,
-        and difficulty or a complete inability to sell or exchange your digital
-        currency. $ZZZ, $NAP or $DREAM shall be under no obligation to purchase
-        or to broker the purchase back from you of your cryptocurrency in
-        circumstances where there is no viable market for the purchase of the
-        same. None of the content published on this site constitutes a
-        recommendation that any particular cryptocurrency, portfolio of
-        cryptocurrencies, transaction or investment strategy is suitable for any
-        specific person. None of the information providers or their affiliates
-        will advise you personally concerning the nature, potential, value or
-        suitability of any particular cryptocurrency, portfolio of
-        cryptocurrencies, transaction, investment strategy or other matter. The
-        products and services presented on this website may only be purchased in
-        jurisdictions in which their marketing and distribution are authorized.
-        Experience at your own risk and may the odds be ever in your favor.
-        Before using any features on this DApp, it is advised to make sure one
-        has a full working knowledge of liquidity pools and impermanent loss. By
-        using this app, it is an acknowledgement of understanding the risks.
+        Complexity and risk are inherent in
+        Cryptocurrency transactions that fit your goals
+        your circumstances and financial situation. You should only buy when you have enough condition        
+        Many factors are beyond $BACKUP's control $BNB $SUNI will affect
+        market prices, including, but not limited to, countries and
+        international economics, finance, regulation, politics, terror,
+        military and other events, adverse or cumulative news events extreme and
+        openly and generally market extremes, uncertain and volatile
+        condition. Huge price changes can happen at any time, resulting in
+        the possibility of loss of value, total or partial loss of purchasing power,
+        and the difficulty or total inability to sell or exchange your digital
+        currency. $BACKUP, $SUNI will have no obligation to buy
+        or let a broker buy you back your cryptocurrency in
+        cases where there is no viable market to buy
+        the same, similar. No content published on this website constitutes
+        Recommend that any particular cryptocurrency, portfolio's
+        Cryptocurrencies, trading or investment strategies that suit any
+        specific person. There is no information provider or their affiliates
+        will advise you personally about the nature, potential, or value
+        the suitability of any particular cryptocurrency, its portfolio
+        cryptocurrency, trading, investment strategy or other matters. The
+        Products and services featured on this website can only be purchased within
+        the jurisdictions in which their marketing and distribution are authorized.
+        Experience the risks and odds for yourself that may work in your favor.
+        Before using any of the features on this DApp, you should secure one
+        have complete working knowledge of liquidity pools and impermanent losses. Because
+        Using this application, it is acknowledgment of understanding the risks.
       </div>
       <div className="links">
         <SocialLink
-          href="https://github.com/zzz-finance/"
+          href="https://github.com/jaybinancedev/"
           icon={githubicon}
           title="Github"
           color="#95A5A6"
         />
-        {/* <a
-          href="https://github.com/zzz-finance/"
+        { <a
+          href="https://github.com/jaybinancedev"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -62,7 +58,7 @@ function Footer() {
           </Button>
         </a>
         <a
-          href="https://twitter.com/zzzfinance/"
+          href="https://twitter.com/BackupFinance/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -71,7 +67,7 @@ function Footer() {
           </Button>
         </a>
         <a
-          href="https://medium.com/@zzzfinance/"
+          href="https://backupfinance.medium.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -79,11 +75,11 @@ function Footer() {
             Medium
           </Button>
         </a>
-        <a href="mailto:hello@zzz.finance">
+        <a href="mailto:bupbsc@backup.finance">
           <Button className="button-footer" icon={emailicon}>
             Email
           </Button>
-        </a> */}
+        </a> }
       </div>
     </FooterContainer>
   );
