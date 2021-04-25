@@ -8,18 +8,18 @@ import { ListingsContainer } from "./Listings.styles";
 function Listings() {
   return (
     <ListingsContainer>
-      <h1 style={{ gridColumn: "1/3", justifySelf: "center" }}>Uniswap</h1>
+      <h1 style={{ gridColumn: "1/3", justifySelf: "center" }}>Exchange Backup</h1>
       <div className="uniswaps">
         <a
           className="listing zzz-listing"
-          href="https://info.uniswap.org/pair/0x4b29ed4190d8387755510feee729fbc974152a0c"
+          href="https://exchange.backup.finance/#/swap?inputCurrency=0x48e15ABBcb21C7f564c1B5Ae08A9f7829745F6D7"
           target="blank"
           rel="noopener noreferrer"
         >
           <img
             className="uniswap-image"
             src={uniswap}
-            alt="uniswap"
+            alt="Uniswap"
             style={{
               padding: "8px",
               width: "75px",
@@ -30,7 +30,7 @@ function Listings() {
         </a>
         <a
           className="listing nap-listing"
-          href="https://info.uniswap.org/pair/0x5c599e277c981d796dbf94c6e79ddac610d6052b"
+          href="https://exchange.backup.finance/#/swap?inputCurrency=0x0E6ef701E9CEF56A516C2e10ad093Be351B6c90f"
           target="blank"
           rel="noopener noreferrer"
         >
@@ -48,7 +48,7 @@ function Listings() {
         </a>
         <a
           className="listing dream-listing"
-          href="https://info.uniswap.org/pair/0x19b3de48392778f8e6ef332fee002aa5e15fe41a"
+          href="https://bsc.backuptoken.info/token/0x48e15abbcb21c7f564c1b5ae08a9f7829745f6d7"
           target="blank"
           rel="noopener noreferrer"
         >
@@ -68,7 +68,7 @@ function Listings() {
       <h1 style={{ gridColumn: "1/3", justifySelf: "center" }}>Find us on</h1>
       <a
         className="listing"
-        href="https://www.coingecko.com/en/coins/zzz-finance-v2"
+        href="https://www.coingecko.com/en/coins/backup-finance"
         target="blank"
         rel="noopener noreferrer"
       >
@@ -86,7 +86,7 @@ function Listings() {
       </a>
       <a
         className="listing"
-        href="https://coinmarketcap.com/currencies/zzz-finance-v2/"
+        href="https://coinmarketcap.com/currencies/backup-finance/"
         style={{ gridColumn: "1 / 3" }}
       >
         Coinmarketcap
