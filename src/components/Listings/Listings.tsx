@@ -26,7 +26,7 @@ function Listings() {
               height: "auto",
             }}
           />
-          ZZZv2
+          Backup Finance
         </a>
         <a
           className="listing nap-listing"
@@ -44,7 +44,7 @@ function Listings() {
               height: "auto",
             }}
           />
-          NAPv2
+          Back Gas Fee
         </a>
         <a
           className="listing dream-listing"
@@ -62,7 +62,7 @@ function Listings() {
               height: "auto",
             }}
           />
-          DREAM
+         Sunshie Dao
         </a>
       </div>
       <h1 style={{ gridColumn: "1/3", justifySelf: "center" }}>Find us on</h1>
