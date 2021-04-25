@@ -26,7 +26,7 @@ function Newsfeed() {
         justifyContent: window?.twttr?.widgets && "center",
       }}
     >
-      <Spinner height={100} width={100} color="#6e7ba7" type="ThreeDots" condition={false} timeout={5000}>
+      <Spinner height={100} width={100} color="#6e7ba7" type="ThreeDots" condition={true} timeout={5000}>
         {" "}
       </Spinner>
     </a>
