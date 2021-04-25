@@ -41,9 +41,9 @@ const infoBoxes = [
     icon: <img src={communityIcon} alt="community" />,
   },
   {
-    title: "Back Gas Token",
+    title: "Bgas Token",
     text:
-      "BGAS is the an extra layer for the economy. It act's as a gas token in the system. It can be spent to increase your yields by the Boost functionality. Revenues from purchases are halved 50% towards future products and 50% towards development fund.",
+      "Bgas is the an extra layer for the economy. It act's as a gas token in the system. It can be spent to increase your yields by the Boost functionality. Revenues from purchases are halved 50% towards future products and 50% towards development fund.",
     icon: <img src={napIcon} alt="community" />,
   },
   {
@@ -121,11 +121,11 @@ function Home() {
                 </p>
                 <h2>Tokenomics</h2>
                 
-                <p> A capped supply of <b>20,000,000 $Backup</b> Presale 5,000,000 Open date 30.04.2021 12:00 PM (UTC).</p>
+                <p> A capped supply of <b> 20,000,000 $Backup </b> Presale 5,000,000 Open date 30.04.2021 12:00 PM (UTC).</p>
                 
-                <p>A capped supply of <b>500,000,000 $BGAS</b> Q.3 2021 distributed to the community. </p>
+                <p>A capped supply of <b> 500,000,000 $Bgas </b> Q.3 2021 distributed to the community. </p>
                
-                <p> A dynamic supply of <b>100,000,000 $SUNI</b> has been created for further use cases including a gamifying-experience.</p>
+                <p> A dynamic supply of <b> 100,000,000 $Suni </b> has been created for further use cases including a gamifying-experience.</p>
                 
               </div>
             </div>
