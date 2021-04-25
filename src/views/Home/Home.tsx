@@ -120,15 +120,13 @@ function Home() {
                   rather than competing.
                 </p>
                 <h2>Tokenomics</h2>
-                <p>
-                  A capped supply of <b>20,000,000 $Backup</b> Presale 5,000,000 Open date 30.04.2021 12:00 PM (UTC).
-                </p>
-                <p>
-                  A capped supply of <b>500,000,000 $BGAS</b>Q.3 2021 distributed to the community.
-                </p>
-                <p>
-                  A dynamic supply of <b>100,000,000 $SUNI</b> has been created for further use cases including a gamifying-experience.
-                </p>
+                
+                <p> A capped supply of <b>20,000,000 $Backup</b> Presale 5,000,000 Open date 30.04.2021 12:00 PM (UTC).</p>
+                
+                <p>A capped supply of <b>500,000,000 $BGAS</b> Q.3 2021 distributed to the community. </p>
+               
+                <p> A dynamic supply of <b>100,000,000 $SUNI</b> has been created for further use cases including a gamifying-experience.</p>
+                
               </div>
             </div>
             <div className="just-a-container">
