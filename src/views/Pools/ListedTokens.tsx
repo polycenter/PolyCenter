@@ -14,11 +14,11 @@ export default [
     icon: zzztokenicon,
   },
   {
-    name: "ZZZETHLPV2",
+    name: "BUSD",
     icon: uniswap_token_icon,
   },
   {
-    name: "ZZZNAPLPV2",
+    name: "MDEX",
     icon: uniswap_token_icon,
   },
   {
