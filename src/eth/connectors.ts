@@ -18,7 +18,7 @@ const RPC_URLS: { [chainId: number]: string } = {
 };
 
 export const injected = new InjectedConnector({
-  supportedChainIds: [1, 3, 4, 5, 42, 6666, 31337],
+  supportedChainIds: [1, 3, 4, 5, 42, 56, 6666, 31337],
 });
 
 // export const network = new NetworkConnector({
@@ -27,7 +27,7 @@ export const injected = new InjectedConnector({
 // });
 
 export const walletconnect = new WalletConnectConnector({
-  rpc: { 1: RPC_URLS[1] },
+  rpc: { 56: RPC_URLS[56] },
   bridge: "https://bridge.walletconnect.org",
   qrcode: true,
   pollingInterval: POLLING_INTERVAL,
