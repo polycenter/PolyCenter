@@ -7,7 +7,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 export async function getCompensationLimit(address: string, provider: any) {
   const contract = new ethers.Contract(
-    "0x345d2333B3A39d6D992f4DA785F0ac681835C2E9",
+    "0x10ED43C718714eb63d5aA57B78B54704E256024E",
     require("./abi/compensation.json"),
     provider
   );
@@ -15,7 +15,7 @@ export async function getCompensationLimit(address: string, provider: any) {
 }
 export async function getTotalPerRound(provider: any) {
   const contract = new ethers.Contract(
-    "0x345d2333B3A39d6D992f4DA785F0ac681835C2E9",
+    "0x10ED43C718714eb63d5aA57B78B54704E256024E",
     require("./abi/compensation.json"),
     provider
   );
@@ -24,7 +24,7 @@ export async function getTotalPerRound(provider: any) {
 
 export async function getTotalCompensationAmount(provider: any) {
   const contract = new ethers.Contract(
-    "0x345d2333B3A39d6D992f4DA785F0ac681835C2E9",
+    "0x10ED43C718714eb63d5aA57B78B54704E256024E",
     require("./abi/compensation.json"),
     provider
   );
@@ -33,7 +33,7 @@ export async function getTotalCompensationAmount(provider: any) {
 
 export async function getTotalRounds(provider: any) {
   const contract = new ethers.Contract(
-    "0x345d2333B3A39d6D992f4DA785F0ac681835C2E9",
+    "0x10ED43C718714eb63d5aA57B78B54704E256024E",
     require("./abi/compensation.json"),
     provider
   );
@@ -41,7 +41,7 @@ export async function getTotalRounds(provider: any) {
 }
 export async function getTokensClaimed(address: string, provider: any) {
   const contract = new ethers.Contract(
-    "0x345d2333B3A39d6D992f4DA785F0ac681835C2E9",
+    "0x10ED43C718714eb63d5aA57B78B54704E256024E",
     require("./abi/compensation.json"),
     provider
   );
@@ -49,7 +49,7 @@ export async function getTokensClaimed(address: string, provider: any) {
 }
 export async function getClaimLimit(address: string, provider: any) {
   const contract = new ethers.Contract(
-    "0x345d2333B3A39d6D992f4DA785F0ac681835C2E9",
+    "0x10ED43C718714eb63d5aA57B78B54704E256024E",
     require("./abi/compensation.json"),
     provider
   );
