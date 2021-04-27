@@ -16,14 +16,14 @@ const LearnBoxes: TLearn[] = [
     title: "Basics",
     text: "The basics of liquidity providing and farming.",
     image: school,
-    link: "https://www.youtube.com/watch?v=QcTk00eRhKI",
+    link: "https://backupfinance.medium.com/",
     color: "#138d75",
   },
   {
-    title: "Staking on ZZZ.Finance",
-    text: "How to stake on ZZZ.Finance",
+    title: "Staking on Backup",
+    text: "How to stake on Backup",
     image: treausre,
-    link: "https://www.youtube.com/watch?v=aSZGQPnfJ0k",
+    link: "https://farm.backup.finance",
     color: "#7CD10F",
   },
   {
@@ -32,7 +32,7 @@ const LearnBoxes: TLearn[] = [
     text: "What is impermanent loss? How does automatic market making work?",
     image: uniswap,
     color: "#9c29ac",
-    link: "https://www.youtube.com/watch?v=8XJ1MSTEuU0",
+    link: "https://exchange.backup.finance/#/swap",
   },
 ];
 export default LearnBoxes;
