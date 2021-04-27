@@ -12,31 +12,31 @@ function Balances({}: Props) {
         <th>USD</th>
         <tr>
           <td>
-            <span role="img" aria-label="zzz">
-              💤
+            <span role="img" aria-label="BACKUP">
+              🎁
             </span>
           </td>
-          <td>ZZZ</td>
+          <td>BACKUP</td>
           <td>20</td>
           <td>2000</td>
         </tr>
         <tr>
           <td>
-            <span role="img" aria-label="nap">
+            <span role="img" aria-label="SUNI">
               😪
             </span>
           </td>
-          <td>NAP</td>
+          <td>SUNI</td>
           <td>200000</td>
           <td>1443</td>
         </tr>
         <tr>
           <td>
-            <span role="img" aria-label="dream">
+            <span role="img" aria-label="SUNI">
               🔮
             </span>
           </td>
-          <td>DREAM</td>
+          <td>SUNI</td>
           <td>175000</td>
           <td>200</td>
         </tr>
