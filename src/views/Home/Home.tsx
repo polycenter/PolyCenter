@@ -75,9 +75,6 @@ function Home() {
       <Layout.MainContent>
         <HomeContent>
           <Introduction>
-            <div className="info">
-              <News />
-              <div className="info-content">
                 <img src={zzzlogo} alt="zzz" className="zzz-logo" />
                 <h2>What is Backup?</h2>
                 <p>
