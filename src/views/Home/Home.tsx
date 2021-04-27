@@ -43,7 +43,7 @@ const infoBoxes = [
   {
     title: "Bgas Token",
     text:
-      "Bgas is the an extra layer for the economy. It act's as a gas token in the system. It can be spent to increase your yields by the Boost functionality. Revenues from purchases are halved 50% towards future products and 50% towards development fund.",
+      "SafeGas is the an extra layer for the economy. It act's as a gas token in the system. It can be spent to increase your yields by the Boost functionality. Revenues from purchases are halved 50% towards future products and 50% towards development fund.",
     icon: <img src={napIcon} alt="community" />,
   },
   {
@@ -123,7 +123,7 @@ function Home() {
                 
                 <p> A capped supply of <b> 20,000,000 $Backup </b> Presale 5,000,000 open date  <b>30.04.2021 12:00 PM (UTC).</b> </p>
                 
-                <p>A capped supply of <b> 500,000,000 $Bgas </b> Q.3 2021 distributed to the community. </p>
+                <p>A capped supply of <b> 500,000,000 $Safegas </b> Q.3 2021 distributed to the community. </p>
                
                 <p> A dynamic supply of <b> 100,000,000 $Suni </b> created for further use cases including a game experience.</p>
               </div>
