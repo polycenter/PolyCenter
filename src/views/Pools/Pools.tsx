@@ -83,9 +83,6 @@ function Pools() {
     );
   }
 
-  /**
-   * Full UI for logged in users
-   */
 
   const { totalRewardsUSD, totalStakedUSD } = PoolStore;
   return (
@@ -114,7 +111,7 @@ function Pools() {
             rel="noopener noreferrer"
           >
             <img src={unismall} className="uni-logo" alt="uniswap" />
-            <span>Get SAFEGAS</span>
+            <span>Get BGAS</span>
           </BuyButtonNAP>
         </BuyButtons>
         <BoxContainer color="black">
