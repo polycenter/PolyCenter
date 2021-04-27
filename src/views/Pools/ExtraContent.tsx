@@ -27,7 +27,7 @@ function ExtraContent() {
             <h3>Total value locked</h3>
             <h2 className="tvl-usd">${totalTVL.usd}</h2>
             <span className="tvl-tokens">
-              {totalTVL.Backup.toFixed(2)} Backup / {totalTVL.nap.toFixed(2)} SUNI
+              {totalTVL.zzz.toFixed(2)} Backup / {totalTVL.nap.toFixed(2)} SUNI
             </span>
           </FuckThisBox>
         </div>
