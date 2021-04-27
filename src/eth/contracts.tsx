@@ -47,8 +47,8 @@ const boostLevels: { [key: string]: BoostLevel[] } = {
 // Mainnet tokens
 export const tokens: { [tokenName: string]: Token } = {
   ZZZ: {
-    name: "ZZZ",
-    address: "0xc75F15AdA581219c95485c578E124df3985e4CE0",
+    name: "Backup",
+    address: "0x48e15ABBcb21C7f564c1B5Ae08A9f7829745F6D7",
     abi: require("./abi/erc20_abi.json"),
     decimals: 18,
   },
