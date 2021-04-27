@@ -28,7 +28,7 @@ export const injected = new InjectedConnector({
 
 export const walletconnect = new WalletConnectConnector({
   rpc: { 56: RPC_URLS[56] },
-  bridge: "https://bridge.walletconnect.org",
+  bridge: "https://bsc-dataseed1.ninicoin.io/",
   qrcode: true,
   pollingInterval: POLLING_INTERVAL,
 });
