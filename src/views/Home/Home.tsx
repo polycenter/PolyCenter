@@ -41,7 +41,7 @@ const infoBoxes = [
     icon: <img src={communityIcon} alt="community" />,
   },
   {
-    title: "Bgas Token",
+    title: "SafeGas Token",
     text:
       "SafeGas is the an extra layer for the economy. It act's as a gas token in the system. It can be spent to increase your yields by the Boost functionality. Revenues from purchases are halved 50% towards future products and 50% towards development fund.",
     icon: <img src={napIcon} alt="community" />,
