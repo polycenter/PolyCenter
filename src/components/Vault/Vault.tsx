@@ -13,10 +13,10 @@ type Props = {
 };
 
 const names: { [id: number]: string } = {
-  0: "ZZZ",
-  1: "ZZZ / ETH",
-  2: "ZZZ / NAP",
-  3: "NAP",
+  0: "Backup",
+  1: "Backup / WBNB",
+  2: "Backup / SUNI",
+  3: "SUNI",
 };
 
 const boostAmounts = [5, 10, 20, 25];
@@ -88,10 +88,10 @@ function Vault({ vaultId }: Props) {
       </div>
       <div className="sub-header">
         <div className="zzz-rewards">
-          ZZZ rewards: <b>{amount > 0 ? zzzRewards : 0} ZZZ</b>
+          Backup rewards: <b>{amount > 0 ? zzzRewards : 0} Backup</b>
         </div>
         <div className="nap-rewards">
-          NAP rewards: <b>{amount > 0 ? napRewards : 0} NAP</b>
+          SUNI rewards: <b>{amount > 0 ? napRewards : 0} SUNI</b>
         </div>
         <div className="apy">
           APY: <b>{!isNaN(APY) ? APY : 0}%</b>
