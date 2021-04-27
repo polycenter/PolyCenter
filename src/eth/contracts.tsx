@@ -44,6 +44,7 @@ const boostLevels: { [key: string]: BoostLevel[] } = {
   ],
 };
 
+/**
 // Mainnet tokens
 export const tokens: { [tokenName: string]: Token } = {
   Backup: {
@@ -573,6 +574,7 @@ export const pools: Pool[] = [
     poolStatus: PoolStatus.Retired,
     poolType: PoolType.LP,
     category: PoolCategory.ZZZ,
+  /**
   },
   {
     id: "331",
@@ -1161,6 +1163,7 @@ export const pools: Pool[] = [
   },
 ];
 
+*/
 // Local test network tokens
 export const localTokens: { [tokenName: string]: Token } = {
   Axioms: {
@@ -1181,7 +1184,7 @@ export const localTokens: { [tokenName: string]: Token } = {
   },
   ZZZETH: {
     name: "ZZZETH",
-    address: "0x5FC8d32690cc91D4c39d9d3abcBD16989F875707",
+    address: "0x48e15ABBcb21C7f564c1B5Ae08A9f7829745F6D7",
     abi: require("./abi/erc20_abi.json"),
     decimals: 18,
     purchaseFrom:
@@ -1189,7 +1192,7 @@ export const localTokens: { [tokenName: string]: Token } = {
   },
   ZZZNAP: {
     name: "ZZZNAP",
-    address: "0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9",
+    address: "0x48e15ABBcb21C7f564c1B5Ae08A9f7829745F6D7",
     abi: require("./abi/erc20_abi.json"),
     decimals: 18,
     purchaseFrom:
@@ -1197,7 +1200,7 @@ export const localTokens: { [tokenName: string]: Token } = {
   },
   ZZZV2: {
     name: "ZZZV2",
-    address: "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
+    address: "0x48e15ABBcb21C7f564c1B5Ae08A9f7829745F6D7",
     abi: require("./abi/erc20_abi.json"),
     decimals: 18,
     purchaseFrom:
@@ -1205,13 +1208,14 @@ export const localTokens: { [tokenName: string]: Token } = {
   },
   NAPV2: {
     name: "NAP",
-    address: "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0",
+    address: "0x48e15ABBcb21C7f564c1B5Ae08A9f7829745F6D7",
     abi: require("./abi/erc20_abi.json"),
     decimals: 18,
     purchaseFrom:
       "https://app.uniswap.org/#/add/0x66b3037aa8dd64c3ef1aee13a4d1f2509f672d1c/0xc75f15ada581219c95485c578e124df3985e4ce0",
   },
 };
+ /**
 // Kovan test network tokens
 export const kovanTokens: { [tokenName: string]: Token } = {
   ZZZV1: {
@@ -1297,7 +1301,8 @@ export const kovanTokens: { [tokenName: string]: Token } = {
     purchaseFrom: "",
   },
 };
-
+ */
+/**
 export const vaultContracts: { [network: string]: any } = {
   unknown: {
     vault: {
@@ -1364,7 +1369,7 @@ export const kovanPools: Pool[] = [
     ],
   },
 ];
-
+ */
 export const contracts: { [network: string]: any[] } = {
   kovan: [
     {
