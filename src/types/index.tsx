@@ -113,7 +113,7 @@ export enum PoolType {
 }
 
 export enum PoolCategory {
-  Backup = 56,
+  ZZZ = 56,
   Migration,
   Partners,
   Retired,
