@@ -282,13 +282,13 @@ export const tokens: { [tokenName: string]: Token } = {
 export const pools: Pool[] = [
   {
     id: "1029412",
-    name: "ZZZ/CORGI",
+    name: "BACKUP/BNB",
     address: "0x215f2e10cc645429C6360132BFD114e49eAded51",
     token: tokens.ZZZCORGI,
     reward: tokens.CORGI,
     poolIcon: "🦴",
     abi: require("./abi/poolv3.json"),
-    info: "Stake ZZZ/CORGI LP for CORGI",
+    info: "Stake BACKUP LP for CORGI",
     purchaseFrom:
       "https://info.uniswap.org/pair/0x183177FE522EFda4FF4273D94D971887dF0eEe2A",
     poolStatus: PoolStatus.Ongoing,
@@ -306,7 +306,7 @@ export const pools: Pool[] = [
   },
   {
     id: "1029420",
-    name: "CORGI/ETH",
+    name: "BACKUP/BNB",
     address: "0x63002F817c2b701Ae032E2d48a28F1fCf012769f",
     token: tokens.CORGIETH,
     reward: tokens.CORGI,
@@ -330,13 +330,13 @@ export const pools: Pool[] = [
   },
   {
     id: "10291",
-    name: "ZZZ/RFI",
+    name: "BACKUP/BNB",
     address: "0x39Ab9213201535274d3B3cf1E586c1E0a1a67b65",
     token: tokens.ZZZRFI,
     reward: tokens.ZZZV2,
     poolIcon: "😴",
     abi: require("./abi/poolv3.json"),
-    info: "Stake ZZZ/RFI LP for ZZZ",
+    info: "Stake BACKUP/BNB LP for ZZZ",
     purchaseFrom:
       "https://info.uniswap.org/pair/0x5fdc37cf54153533ebe5b2e542f6b9fbf904a83d",
     poolStatus: PoolStatus.Ongoing,
@@ -354,7 +354,7 @@ export const pools: Pool[] = [
   },
   {
     id: "10249",
-    name: "ELE/RFI",
+    name: "BACKUP/BNB",
     address: "0x65A7644cC264aC32283F5F885347Cd5007B9BD96",
     token: tokens.ELERFI,
     reward: tokens.ZZZV2,
@@ -378,13 +378,13 @@ export const pools: Pool[] = [
   },
   {
     id: "10212",
-    name: "ZZZ/ETH",
+    name: "BACKUP/BNB",
     address: "0xbE3e2d76000A66B10634F3020e676794F9E4eF1E",
     token: tokens.ZZZETHV2,
     reward: tokens.ZZZV2,
     poolIcon: "🐔",
     abi: require("./abi/poolv3.json"),
-    info: "Stake ZZZ/ETH LP for ZZZ",
+    info: "Stake BACKUP/BNB LP for ZZZ",
     purchaseFrom:
       "https://info.uniswap.org/pair/0x4b29ed4190d8387755510feee729fbc974152a0c",
     poolStatus: PoolStatus.Ongoing,
@@ -402,13 +402,13 @@ export const pools: Pool[] = [
   },
   {
     id: "10213",
-    name: "ZZZ/NAP",
+    name: "BACKUP/BNB",
     address: "0xD2a3eae9d7cc2884ded7631cEe83727f17447577",
     token: tokens.ZZZNAPV2,
     reward: tokens.DREAM,
     poolIcon: "🐔",
     abi: require("./abi/poolv3.json"),
-    info: "Stake ZZZ/NAP LP for DREAM",
+    info: "Stake BACKUP/BNB LP for DREAM",
     purchaseFrom:
       "https://info.uniswap.org/pair/0x5c599e277c981d796dbf94c6e79ddac610d6052b",
     poolStatus: PoolStatus.Ongoing,
@@ -426,13 +426,13 @@ export const pools: Pool[] = [
   },
   {
     id: "10215",
-    name: "NAP/ETH",
+    name: "BACKUP/BNB",
     address: "0xd8eEf807F6ec7514f36663388850F950b37a5ea2",
     token: tokens.NAPETH,
     reward: tokens.NAPV2,
     poolIcon: "🐔",
     abi: require("./abi/poolv3.json"),
-    info: "Stake NAP/ETH LP for NAP",
+    info: "Stake BACKUP/BNB LP for NAP",
     purchaseFrom:
       "https://info.uniswap.org/pair/0xabca101b4a5404cfa49544e475d211e65619c9c7",
     poolStatus: PoolStatus.Ongoing,
