@@ -6,11 +6,11 @@ import napicon from "../../assets/nap_token_icon.png";
 
 export default [
   {
-    name: "WETH",
+    name: "BNB",
     icon: ethicon,
   },
   {
-    name: "ZZZV2",
+    name: "BACKUP",
     icon: zzztokenicon,
   },
   {
@@ -22,11 +22,11 @@ export default [
     icon: uniswap_token_icon,
   },
   {
-    name: "DREAM",
+    name: "SUNI",
     icon: dreamIcon,
   },
   {
-    name: "NAPV2",
+    name: "SAFEGAS",
     icon: napicon,
   },
 ];
