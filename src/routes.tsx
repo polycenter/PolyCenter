@@ -6,7 +6,7 @@ import Learn from "views/Learn/Learn";
 import Pools from "views/Pools/Pools";
 import Compensation from "views/Compensation/Compensation";
 import Vaults from "views/Vault/Vaults";
-import Exchange from "views/exchange/exchange";
+
 
 
 function Routes() {
@@ -18,7 +18,7 @@ function Routes() {
       <Route path="/compensation" component={Compensation}></Route>
       <Route path="/vault" component={Vaults}></Route>
       <Route path="/" component={Home}></Route>
-      <Route path="https://exchange.backup.finance" component={exchange}></Route>
+
     </Switch>
   );
 }
