@@ -8,7 +8,7 @@ import { observer } from "mobx-react";
 
 function ExtraContent() {
   let initialShowHelpValue = true;
-  const cachedValue = localStorage.getItem("zzz-pools-showhelp");
+  const cachedValue = localStorage.getItem("Backup-pools-showhelp");
   if (cachedValue !== null) {
     initialShowHelpValue = JSON.parse(cachedValue);
   }
@@ -27,7 +27,7 @@ function ExtraContent() {
             <h3>Total value locked</h3>
             <h2 className="tvl-usd">${totalTVL.usd}</h2>
             <span className="tvl-tokens">
-              {totalTVL.zzz.toFixed(2)} ZZZ / {totalTVL.nap.toFixed(2)} NAP
+              {totalTVL.Backup.toFixed(2)} Backup / {totalTVL.nap.toFixed(2)} SUNI
             </span>
           </FuckThisBox>
         </div>
