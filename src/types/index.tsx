@@ -167,9 +167,9 @@ export type VaultUserInfo = {
 };
 
 export type VaultInfo = {
-  token: 0x48e15ABBcb21C7f564c1B5Ae08A9f7829745F6D7; // Staking token contract.
-  epoch: 1000;
-  epochStartBlock: 6930881;
+  token: any; // Staking token contract.
+  epoch: number;
+  epochStartBlock: number;
   allocPointZZZ: number; // How many allocation points assigned to this vault. NAPs to distribute per block.
   allocPointNAP: number; // How many allocation points assigned to this vault. NAPs to distribute per block.
   accZZZPerShare: number; // Accumulated NAPs per share, times 1e12. See below.
