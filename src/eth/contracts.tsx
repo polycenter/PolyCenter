@@ -1368,7 +1368,7 @@ export const kovanPools: Pool[] = [
     ],
   },
 ];
- */
+
 export const contracts: { [network: string]: any[] } = {
   kovan: [
     {
