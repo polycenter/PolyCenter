@@ -11,38 +11,39 @@ const newsItems: TNews[] = [
   {
     id: 0,
     text: () => (
-      <span className="main-text">BACKUP/BNB pair is now listed in Pancakeswap!</span>
+      <span className="main-text">BACKUP/BNB pair is now listed in Pancake!</span>
     ),
     extra: () => (
       <span className="extra-text">
-        Backup token sale live on 30.04.2021 1:00 PM UTC
+        Extra pairs for USDT and BTC are coming later. Click here to register
+        for trading!
       </span>
     ),
-    link: "https://t.me/BACKUPSWAP",
+    link: "/",
   },
   {
     id: 1,
     text: () => (
       <span className="main-text">
-        Airdrop Safegas $1000 Only available on backup swap platforms!!! join now.
+        CertiK audit process has been finalized!
       </span>
     ),
     extra: () => <span className="extra-text">Press to learn more</span>,
     link:
-      "https://backup.finance",
+      "/",
   },
   {
     id: 2,
     text: () => <span className="main-text">Governance is live!</span>,
     extra: () => (
-      <span className="extra-text">I love Backup Finance</span>
+      <span className="extra-text">Head over to propose and vote!</span>
     ),
     link: "/#/governance",
   },
   {
     id: 3,
     text: () => (
-      <span className="main-text">A new pool is available for staking 5.5.2021!</span>
+      <span className="main-text">A new pool is available for prestaking!</span>
     ),
     extra: () => (
       <span className="extra-text">Click here to go to the pools section!</span>
@@ -51,7 +52,7 @@ const newsItems: TNews[] = [
   },
   {
     id: 4,
-    text: () => <span className="main-text">WBNB, MDEX, CAKE are here!</span>,
+    text: () => <span className="main-text">Cats are here!</span>,
     extra: () => (
       <span className="extra-text">
         Go see them at our pool section by clicking here!
@@ -61,7 +62,7 @@ const newsItems: TNews[] = [
   },
   {
     id: 5,
-    text: () => <span className="main-text">Backup swap are here!</span>,
+    text: () => <span className="main-text">Cats are here!</span>,
     extra: () => (
       <span className="extra-text">
         Go see them at our pool section by clicking here!
@@ -78,7 +79,7 @@ const newsItems: TNews[] = [
     ),
     extra: () => (
       <span className="extra-text">
-        You can claim your Suni compensations when rounds begin, just click here!
+        You can claim your SUNI compensations when rounds begin, just click here!
       </span>
     ),
     link: "/#/compensation",
@@ -128,9 +129,9 @@ const newsItems: TNews[] = [
   {
     id: 10,
     text: () => (
-      <span className="main-text">A new pool is available, Backup to Cake!</span>
+      <span className="main-text">A new pool is available, BACKUP to SUNI!</span>
     ),
-    extra: () => <span className="extra-text">Coming soon!</span>,
+    extra: () => <span className="extra-text">Head over to the pools!</span>,
     link: "/#/pools",
   },
   {
@@ -142,7 +143,7 @@ const newsItems: TNews[] = [
     ),
     extra: () => (
       <span className="extra-text">
-        Head over to the pools, they will start at 5PM GMT+2.
+        Head over to the pools, they will start at 7PM GMT+2.
       </span>
     ),
     link: "/#/pools",
@@ -155,7 +156,7 @@ const newsItems: TNews[] = [
       </span>
     ),
     extra: () => (
-      <span className="extra-text">Backup top #1 swaps are also BSC there. </span>
+      <span className="extra-text">1 to 1 swaps are also located there. </span>
     ),
     link: "/#/pools",
   },
@@ -163,12 +164,12 @@ const newsItems: TNews[] = [
     id: 13,
     text: () => (
       <span className="main-text">
-        Coming soon!
+        Migration is over, V1 tokens are no longer supported or swapped.
       </span>
     ),
     extra: () => (
       <span className="extra-text">
-        If you are in a migration pool you'll be able to withdraw your V1
+        If you are in a migration pool you'll be able to withdraw your V2
         tokens.
       </span>
     ),
@@ -189,26 +190,28 @@ const newsItems: TNews[] = [
     text: () => <span className="main-text">Pools are now open!</span>,
     extra: () => (
       <span className="extra-text">
-        Coming soon!
+        Head over to pools to see them out. They include a global boost for your
+        total Backup staked in the vault. (this includes underlying tokens in both
+        Backup/Bnb)
       </span>
     ),
     link: "/#/pools",
   },
   {
     id: 16,
-    text: () => <span className="main-text">Coming soon!</span>,
+    text: () => <span className="main-text">RFI pools are here</span>,
     extra: () => (
       <span className="extra-text">
-        
-        🎁
+        Backup/RFI LP staking with 600 Backup as reward and Backup/ELE with 400 Backup as
+        rewards now located in the pools section!
       </span>
     ),
     link: "/#/pools",
   },
   {
     id: 17,
-    text: () => <span className="main-text">Yes we are one.</span>,
-    extra: () => <span className="extra-text">Yes we are one.</span>,
+    text: () => <span className="main-text">Backup Live Token sale</span>,
+    extra: () => <span className="extra-text">30.04.2021</span>,
     link: "/#/pools",
   },
 ];
