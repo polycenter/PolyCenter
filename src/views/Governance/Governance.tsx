@@ -29,13 +29,13 @@ function Governance() {
               alt="governance"
             />
             <a
-              href="https://farm.backup.finance"
+              href="https://discord.gg/mVjUXPMZ3x"
               target="blank"
               rel="noopener noreferrer"
               style={{ pointerEvents: "none", opacity: "0.4" }}
             >
               <button className="join-button">
-                <s>Discuss</s> (offline)
+                <s>Discuss</s> (Online)
               </button>
             </a>
           </div>
@@ -45,7 +45,7 @@ function Governance() {
         <GovernanceIframe
           className="governance-frame"
           src="https://exchange.backup.finance/"
-          title="Try the Backup Swap platform"
+          title="Get Start Swap platform"
         />
         {/* <GovernanceContent>
           <div className="placeholder">COMING SOON &trade;</div>
