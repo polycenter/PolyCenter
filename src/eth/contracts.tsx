@@ -46,7 +46,7 @@ const boostLevels: { [key: string]: BoostLevel[] } = {
 
 // Mainnet tokens
 export const tokens: { [tokenName: string]: Token } = {
-  ZZZ: {
+  Backup: {
     name: "Backup",
     address: "0x48e15ABBcb21C7f564c1B5Ae08A9f7829745F6D7",
     abi: require("./abi/erc20_abi.json"),
@@ -1164,12 +1164,12 @@ export const pools: Pool[] = [
 // Local test network tokens
 export const localTokens: { [tokenName: string]: Token } = {
   Axioms: {
-    name: "Axioms",
-    address: "0x0165878A594ca255338adfa4d48449f69242Eb8F",
+    name: "Backup",
+    address: "0x48e15ABBcb21C7f564c1B5Ae08A9f7829745F6D7",
     abi: require("./abi/erc20_abi.json"),
     decimals: 18,
     purchaseFrom:
-      "https://app.uniswap.org/#/add/0x66b3037aa8dd64c3ef1aee13a4d1f2509f672d1c/0xc75f15ada581219c95485c578e124df3985e4ce0",
+      "https://exchange.backup.finance/#/swap?inputCurrency=0x48e15ABBcb21C7f564c1B5Ae08A9f7829745F6D7",
   },
   DREAM: {
     name: "DREAM",
