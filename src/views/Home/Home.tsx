@@ -13,7 +13,7 @@ import zzzlogo from "assets/zzz_token_logo.png";
 import communityIcon from "assets/community_icon-trimmy.png";
 import napIcon from "assets/catnap-trimmy.png";
 import connectionIcon from "assets/connection_icon-trimmy.png";
-
+import News from "components/News/";
 
 import { Certik, HomeContent, HomeTitle, InfoBox, InfoBoxes, Introduction } from "./Home.styles";
 import Listings from "components/Listings/Listings";
@@ -76,6 +76,9 @@ function Home() {
         <HomeContent>
           <Introduction>
                 <img src={zzzlogo} alt="zzz" className="zzz-logo" />
+              <div className="info">
+              <News />
+              <div className="info-content">
                 <h2>What is Backup?</h2>
                 <p>
                   Backup (a Japanese word for Bakkuappu) is an automated interest rate base protocol built for Binance Smart Chain Massive Users, 
