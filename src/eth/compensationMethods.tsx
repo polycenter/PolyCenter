@@ -7,7 +7,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 export async function getCompensationLimit(address: string, provider: any) {
   const contract = new ethers.Contract(
-    "0x1f0756a6c9d3974c5e3d0bd31f431496641d4344",
+    "0x345d2333B3A39d6D992f4DA785F0ac681835C2E9",
     require("./abi/compensation.json"),
     provider
   );
@@ -15,7 +15,7 @@ export async function getCompensationLimit(address: string, provider: any) {
 }
 export async function getTotalPerRound(provider: any) {
   const contract = new ethers.Contract(
-    "0x1f0756a6c9d3974c5e3d0bd31f431496641d4344",
+    "0x345d2333B3A39d6D992f4DA785F0ac681835C2E9",
     require("./abi/compensation.json"),
     provider
   );
@@ -24,7 +24,7 @@ export async function getTotalPerRound(provider: any) {
 
 export async function getTotalCompensationAmount(provider: any) {
   const contract = new ethers.Contract(
-    "0x1f0756a6c9d3974c5e3d0bd31f431496641d4344",
+    "0x345d2333B3A39d6D992f4DA785F0ac681835C2E9",
     require("./abi/compensation.json"),
     provider
   );
@@ -33,7 +33,7 @@ export async function getTotalCompensationAmount(provider: any) {
 
 export async function getTotalRounds(provider: any) {
   const contract = new ethers.Contract(
-    "0x1f0756a6c9d3974c5e3d0bd31f431496641d4344",
+    "0x345d2333B3A39d6D992f4DA785F0ac681835C2E9",
     require("./abi/compensation.json"),
     provider
   );
@@ -41,7 +41,7 @@ export async function getTotalRounds(provider: any) {
 }
 export async function getTokensClaimed(address: string, provider: any) {
   const contract = new ethers.Contract(
-    "0x1f0756a6c9d3974c5e3d0bd31f431496641d4344",
+    "0x345d2333B3A39d6D992f4DA785F0ac681835C2E9",
     require("./abi/compensation.json"),
     provider
   );
@@ -49,7 +49,7 @@ export async function getTokensClaimed(address: string, provider: any) {
 }
 export async function getClaimLimit(address: string, provider: any) {
   const contract = new ethers.Contract(
-    "0x1f0756a6c9d3974c5e3d0bd31f431496641d4344",
+    "0x345d2333B3A39d6D992f4DA785F0ac681835C2E9",
     require("./abi/compensation.json"),
     provider
   );
@@ -57,7 +57,7 @@ export async function getClaimLimit(address: string, provider: any) {
 }
 export async function getCurrentRound(provider: any) {
   const contract = new ethers.Contract(
-    "0x1f0756a6c9d3974c5e3d0bd31f431496641d4344",
+    "0x345d2333B3A39d6D992f4DA785F0ac681835C2E9",
     require("./abi/compensation.json"),
     provider
   );
@@ -81,7 +81,7 @@ export async function claimCompensation(signer: any) {
   );
   const stakeToast = "stakeToast";
   const contract = new ethers.Contract(
-    "0x1f0756a6c9d3974c5e3d0bd31f431496641d4344",
+    "0x345d2333B3A39d6D992f4DA785F0ac681835C2E9",
     require("./abi/compensation.json"),
     signer
   );
