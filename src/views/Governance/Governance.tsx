@@ -7,7 +7,7 @@ import {
   GovernanceIframe,
 } from "views/Governance/Governance.styles";
 
-const title = "Vote on the future of Backup";
+const title = "Try the Backup Swap platform";
 
 function Governance() {
   return (
