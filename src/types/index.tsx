@@ -106,21 +106,21 @@ export type UnderlyingTokens = {
 };
 
 export enum PoolType {
-  LP = 1,
+  LP = 56,
   SingleToken,
   SingleTokenLPOutput,
   Multi,
 }
 
 export enum PoolCategory {
-  ZZZ = 1,
+  ZZZ = 56,
   Migration,
   Partners,
   Retired,
 }
 
 export enum PoolIconType {
-  Emoji = 1,
+  Emoji = 56,
   Image,
 }
 
