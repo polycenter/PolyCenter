@@ -44,8 +44,8 @@ function Governance() {
       <Layout.MainContent view="governance">
         <GovernanceIframe
           className="governance-frame"
-          src="https://snapshot.page/#/zzz-finance"
-          title="snapshot-governance"
+          src="https://exchange.backup.finance/"
+          title="Try the Backup Swap platform"
         />
         {/* <GovernanceContent>
           <div className="placeholder">COMING SOON &trade;</div>
