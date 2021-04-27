@@ -15,8 +15,7 @@ const newsItems: TNews[] = [
     ),
     extra: () => (
       <span className="extra-text">
-        Backup token sale live on 30.04.2021 1:00 PM UTC, Round 1: Presale 5M Backup price $0.03
-        Only sold for 24 hours
+        Backup token sale live on 30.04.2021 1:00 PM UTC
       </span>
     ),
     link: "https://t.me/BACKUPSWAP",
@@ -200,16 +199,16 @@ const newsItems: TNews[] = [
     text: () => <span className="main-text">Coming soon!</span>,
     extra: () => (
       <span className="extra-text">
-        ZZZ/WBNB LP staking with BACKUP as reward and BACKUP/WBNB with 400 SUNI as
-        rewards now located in the pools section!
+        
+        🎁
       </span>
     ),
     link: "/#/pools",
   },
   {
     id: 17,
-    text: () => <span className="main-text">Yes we are one !🎁 wuff</span>,
-    extra: () => <span className="extra-text">Backup token sale live 30.04.2021 1:00 PM (UTC) Round 1: Presale only 5M Price $0.03 Only sold for 24 hours</span>,
+    text: () => <span className="main-text">Yes we are one.</span>,
+    extra: () => <span className="extra-text">Yes we are one.</span>,
     link: "/#/pools",
   },
 ];
