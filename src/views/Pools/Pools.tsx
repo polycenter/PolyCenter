@@ -111,7 +111,7 @@ function Pools() {
             rel="noopener noreferrer"
           >
             <img src={unismall} className="uni-logo" alt="uniswap" />
-            <span>Get BGAS</span>
+            <span>Get SAFEGAS</span>
           </BuyButtonNAP>
         </BuyButtons>
         <BoxContainer color="black">
