@@ -13,8 +13,8 @@ import { WalletConnectConnector } from "@web3-react/walletconnect-connector";
 
 const POLLING_INTERVAL = 12000;
 const RPC_URLS: { [chainId: number]: string } = {
-  1: process.env.REACT_APP_INFURA_HTTPS_ENDPOINT as string,
-  4: process.env.RPC_URL_4 as string,
+  56: process.env.REACT_APP_INFURA_HTTPS_ENDPOINT as string,
+  56: process.env.RPC_URL_4 as string,
 };
 
 export const injected = new InjectedConnector({
