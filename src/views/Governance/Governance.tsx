@@ -29,7 +29,7 @@ function Governance() {
               alt="governance"
             />
             <a
-              href="https://forums.backup.finance"
+              href="https://farm.backup.finance"
               target="blank"
               rel="noopener noreferrer"
               style={{ pointerEvents: "none", opacity: "0.4" }}
