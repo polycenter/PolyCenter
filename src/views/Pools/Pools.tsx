@@ -45,7 +45,7 @@ function Pools() {
                 rel="noopener noreferrer"
               >
                 <img src={unismall} className="uni-logo" alt="uniswap" />
-                Get Backup
+                Get BACKUP
               </BuyButtonZZZ>
               <BuyButtonNAP
                 href="https://exchange.backup.finance/#/swap?inputCurrency=0x0E6ef701E9CEF56A516C2e10ad093Be351B6c90f"
@@ -61,7 +61,7 @@ function Pools() {
                 rel="noopener noreferrer"
               >
                 <img src={unismall} className="uni-logo" alt="uniswap" />
-                Get SafeGas
+                Get SAFEGAS
               </BuyButtonNAP>
             </BuyButtons>
             <Box>
@@ -93,28 +93,28 @@ function Pools() {
       <Layout.MainContent view="pools">
         <BuyButtons activePools={true}>
           <BuyButtonZZZ
-            href="https://info.uniswap.org/pair/0x4b29ed4190d8387755510feee729fbc974152a0c"
+            href="https://exchange.backup.finance/#/swap?inputCurrency=0x48e15ABBcb21C7f564c1B5Ae08A9f7829745F6D7"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img src={unismall} className="uni-logo" alt="uniswap" />
-            Get ZZZ
+            Get BACKUP
           </BuyButtonZZZ>
           <BuyButtonNAP
-            href="https://info.uniswap.org/pair/0x5c599e277c981d796dbf94c6e79ddac610d6052b"
+            href="https://bsc.backuptoken.info/token/0x48e15ABBcb21C7f564c1B5Ae08A9f7829745F6D7"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img src={unismall} className="uni-logo" alt="uniswap" />
-            Get NAP
+            Get SUNI
           </BuyButtonNAP>
           <BuyButtonNAP
-            href="https://info.uniswap.org/pair/0x19b3de48392778f8e6ef332fee002aa5e15fe41a"
+            href="https://exchange.backup.finance/#/swap?inputCurrency=0x0E6ef701E9CEF56A516C2e10ad093Be351B6c90f"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img src={unismall} className="uni-logo" alt="uniswap" />
-            <span>Get DREAM</span>
+            <span>Get BACKUP</span>
           </BuyButtonNAP>
         </BuyButtons>
         <BoxContainer color="black">
@@ -160,7 +160,7 @@ function Pools() {
                       <b>{balance?.toFixed(4)}</b>
                     </span>
                     <div className="balance-token-name">
-                      1 {name} = ${tokenPrice?.toFixed(4)}
+                      56 {name} = ${tokenPrice?.toFixed(4)}
                     </div>
                   </div>
                 );
