@@ -17,12 +17,12 @@ function Help() {
           <div className="title">First time in DeFi?</div>
           <div className="join">
             <div className="join-text">
-              Learn how ZZZ works by checking out our step by step tutorials!
+              Learn how Backup works by checking out our step by step tutorials!
             </div>
             <img src={img_join_convo} alt="zzz-join_convo" />
           </div>
           <button className="join-button" onClick={handleClick}>
-            ZZZ University
+            Backup University
           </button>
         </AcademyBox>
       </div>
