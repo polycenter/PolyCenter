@@ -126,7 +126,7 @@ function Vault({ vaultId }: Props) {
         ) : (
           <div
             className="vault-button"
-            onClick={() => VaultStore.approve(Backup, 56)}
+            onClick={() => VaultStore.approve(token, vaultId)}
           >
             Approve {vaultName} to participate
           </div>
