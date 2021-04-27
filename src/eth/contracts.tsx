@@ -1215,7 +1215,7 @@ export const localTokens: { [tokenName: string]: Token } = {
       "https://app.uniswap.org/#/add/0x66b3037aa8dd64c3ef1aee13a4d1f2509f672d1c/0xc75f15ada581219c95485c578e124df3985e4ce0",
   },
 };
- /**
+
 // Kovan test network tokens
 export const kovanTokens: { [tokenName: string]: Token } = {
   ZZZV1: {
@@ -1301,8 +1301,7 @@ export const kovanTokens: { [tokenName: string]: Token } = {
     purchaseFrom: "",
   },
 };
- */
-/**
+
 export const vaultContracts: { [network: string]: any } = {
   unknown: {
     vault: {
