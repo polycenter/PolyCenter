@@ -13,7 +13,7 @@ import zzzlogo from "assets/zzz_token_logo.png";
 import communityIcon from "assets/community_icon-trimmy.png";
 import napIcon from "assets/catnap-trimmy.png";
 import connectionIcon from "assets/connection_icon-trimmy.png";
-import News from "components/News/News";
+
 
 import { Certik, HomeContent, HomeTitle, InfoBox, InfoBoxes, Introduction } from "./Home.styles";
 import Listings from "components/Listings/Listings";
