@@ -121,11 +121,11 @@ function Home() {
                 </p>
                 <h2>Tokenomics</h2>
                 
-                <p> A capped supply of <b> 20,000,000 $Backup </b> Presale 5,000,000 open date  <b>30.04.2021 12:00 PM (UTC).</b> </p>
+                <p> A capped supply of <b> 20,000,000 $BACKUP </b> Presale 5,000,000 open date  <b>30.04.2021 12:00 PM (UTC).</b> </p>
                 
-                <p>A capped supply of <b> 500,000,000 $Safegas </b> Q.3 2021 distributed to the community. </p>
+                <p>A capped supply of <b> 1.000,000,000 $SAFEGAS </b> distributed to the community. </p>
                
-                <p> A dynamic supply of <b> 100,000,000 $Suni </b> created for further use cases including a game experience.</p>
+                <p> A dynamic supply of <b> 100,000,000 $SUNI </b> created for further use cases including a game experience.</p>
               </div>
             </div>
             <div className="just-a-container">
