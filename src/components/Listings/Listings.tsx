@@ -12,7 +12,7 @@ function Listings() {
       <div className="uniswaps">
         <a
           className="listing zzz-listing"
-          href="https://polycenter.exchange"
+          href="https://polycenter.io"
           target="blank"
           rel="noopener noreferrer"
         >
@@ -26,7 +26,7 @@ function Listings() {
               height: "auto",
             }}
           />
-          Backup Finance
+          PolyCenter
         </a>
         <a
           className="listing nap-listing"
@@ -44,7 +44,7 @@ function Listings() {
               height: "auto",
             }}
           />
-          Back Gas Fee
+          PolySwap
         </a>
         <a
           className="listing dream-listing"
@@ -62,7 +62,7 @@ function Listings() {
               height: "auto",
             }}
           />
-         Sunshie Dao
+         PolyInfo Dao
         </a>
       </div>
       <h1 style={{ gridColumn: "1/3", justifySelf: "center" }}>Find us on</h1>
