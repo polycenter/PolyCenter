@@ -116,12 +116,23 @@ function Home() {
                   rather than competing.
                 </p>
                 <h2>Tokenomics</h2>
+                <p>Token:<b>POLY.</b> </p>
+                <p>Maximum Supply:<b> 1,000,000,000,000,000 POLY.</b> </p>
+                <p>Private-Sale:<b> 64,000,000,000,000 (6.4%).</b> </p>
+                <p>FCFS:<b> 26,750,000,000,000 (2.67%).</b> </p>
+                <p>Pre-Sale:<b> 293,250,000,000,000 (29.32%)</b> </p>
+                <p>Liquidity:<b> 256,000,000,000,000 (25.6%)</b> </p>
+                <p>Burn Wallet:<b> 110,000,000,000,000 (11%)</b> </p>
+                <p>Dev Wallet:<b> 100,000,000,000,000 (10%)</b> </p>
+                <p>Development:<b> 50,000,000,000,000 (5%)</b> </p>
+                <p>Reserve:<b> 50,000,000,000,000 (5%)</b> </p>
+                <p>Team Wallet :<b> 50,000,000,000,000 (5%)</b> </p>
                 
-                <p> A capped supply of <b> 20,000,000 $BACKUP </b> Presale 5,000,000 open date  <b>30.04.2021 12:00 PM (UTC).</b> </p>
+                * Raised funds will be used for marketing. Spots are equal to the whitelist
                 
-                <p>A capped supply of <b> 1.000,000,000 $SAFEGAS </b> distributed to the community. </p>
-               
-                <p> A dynamic supply of <b> 100,000,000 $SUNI </b> created for further use cases including a game experience.</p>
+                <h2>Token Economics</h2>
+                <p>A 10% tax is charged on each transaction. This can be divided into 3 parts:</b> </p>
+                ♻️ 2% Holders Fee
               </div>
             </div>
             <div className="just-a-container">
@@ -160,7 +171,7 @@ function Home() {
               </p>
             </div>
             <a
-              href="https://backupfinance.medium.com"
+              href="https://medium.com/@PolyCenter"
               target="_blank"
               rel="noopener noreferrer"
               className="button"
