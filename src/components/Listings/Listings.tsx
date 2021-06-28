@@ -62,7 +62,7 @@ function Listings() {
               height: "auto",
             }}
           />
-         PolyInfo Dao
+         PolyInfo
         </a>
       </div>
       <h1 style={{ gridColumn: "1/3", justifySelf: "center" }}>Find us on</h1>
