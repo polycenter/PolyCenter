@@ -4,9 +4,9 @@ import React from "react";
 import boxes from "./LearnBoxes";
 import { HomeContent, InfoBox, InfoBoxes, LearnTitle } from "./Learn.styles";
 
-const title = "Welcome to the Backup University.";
+const title = "Welcome to the PolyCenter";
 const subtitle =
-  "Even if you've never used cryptocurrency before, we'll walk you through the basics of DeFi and features of the Backup ecosystem.";
+  "Even if you've never used cryptocurrency before, we'll walk you through the basics of DeFi and features of the POLY ecosystem.";
 
 function Learn() {
   return (
@@ -42,7 +42,7 @@ function Learn() {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      {box.linkText ? box.linkText : "Watch"}
+                      {box.linkText ? box.linkText : "Enter"}
                     </a>
                   </div>
                 </div>
