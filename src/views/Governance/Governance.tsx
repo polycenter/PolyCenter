@@ -7,7 +7,7 @@ import {
   GovernanceIframe,
 } from "views/Governance/Governance.styles";
 
-const title = "Try the Backup Swap platform";
+const title = "Try the PolyCenter Swap platform";
 
 function Governance() {
   return (
@@ -29,7 +29,7 @@ function Governance() {
               alt="governance"
             />
             <a
-              href="https://discord.gg/mVjUXPMZ3x"
+              href="https://discord.gg/a6v5hqDZAd"
               target="blank"
               rel="noopener noreferrer"
               style={{ pointerEvents: "none", opacity: "0.4" }}
