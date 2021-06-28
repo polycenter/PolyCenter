@@ -84,7 +84,7 @@ function Home() {
                 PolyCenter is a fully Decentralized Exchange that runs on Binance Smart Chain. Bridging your assets across networks is faster and cheaper using PolyCenter swap.
                 POLY token will be a deflationary token with a unique burn mechanism. You will be able to farm POLY using different liquidity pairs. AMM by itself will provide high yield farms for early investors and for the long term hold community.
                 </p>
-                <p>It all started by a single developer and as of now the project is handed to the community to grow forwards.</p>
+                <p>It all started by a single developer and as of now the project is handed to the community to grow forwards. Our goal is to provide a rug-proof swap and bridging service that is faster and more secure than the rest. POLY token is a deflationary token with continual burn mechanisms that reduce supply and that address inflation issues. With these methods we believe POLY can sustain long term success. </p>
                 <p>
                   It is a new form of governance system. A think-tank. A place where innovation, entrepreneurship, and technological
                   advancements are the priority, creating a much needed utility focus to the blockchain space. The value of POLY is
@@ -116,7 +116,7 @@ function Home() {
                   rather than competing.
                 </p>
                 <h2>Tokenomics</h2>
-                <p>Token:<b>POLY.</b> </p>
+                <p>Token:<b> POLY.</b> </p>
                 <p>Maximum Supply:<b> 1,000,000,000,000,000 POLY.</b> </p>
                 <p>Private-Sale:<b> 64,000,000,000,000 (6.4%).</b> </p>
                 <p>FCFS:<b> 26,750,000,000,000 (2.67%).</b> </p>
