@@ -11,7 +11,7 @@ const newsItems: TNews[] = [
   {
     id: 0,
     text: () => (
-      <span className="main-text">BACKUP/BNB pair is now listed in Pancake!</span>
+      <span className="main-text">POLY/BNB pair is now listed in Pancake!</span>
     ),
     extra: () => (
       <span className="extra-text">
@@ -79,7 +79,7 @@ const newsItems: TNews[] = [
     ),
     extra: () => (
       <span className="extra-text">
-        You can claim your SUNI compensations when rounds begin, just click here!
+        You can claim your POLY compensations when rounds begin, just click here!
       </span>
     ),
     link: "/#/compensation",
@@ -129,7 +129,7 @@ const newsItems: TNews[] = [
   {
     id: 10,
     text: () => (
-      <span className="main-text">A new pool is available, BACKUP to SUNI!</span>
+      <span className="main-text">A new pool is available, POLY to POLY!</span>
     ),
     extra: () => <span className="extra-text">Head over to the pools!</span>,
     link: "/#/pools",
@@ -164,7 +164,7 @@ const newsItems: TNews[] = [
     id: 13,
     text: () => (
       <span className="main-text">
-        Migration is over, V1 tokens are no longer supported or swapped.
+        Migration is over, V2 tokens are no longer supported or swapped.
       </span>
     ),
     extra: () => (
@@ -199,10 +199,10 @@ const newsItems: TNews[] = [
   },
   {
     id: 16,
-    text: () => <span className="main-text">RFI pools are here</span>,
+    text: () => <span className="main-text">POLY pools are here</span>,
     extra: () => (
       <span className="extra-text">
-        Backup/RFI LP staking with 600 Backup as reward and Backup/ELE with 400 Backup as
+        POLY/BNB LP staking with 600 POLY as reward and POLY/ELE with 400 POLY as
         rewards now located in the pools section!
       </span>
     ),
@@ -210,8 +210,8 @@ const newsItems: TNews[] = [
   },
   {
     id: 17,
-    text: () => <span className="main-text">Backup Live Token sale</span>,
-    extra: () => <span className="extra-text">30.04.2021</span>,
+    text: () => <span className="main-text">POLY Live Token sale</span>,
+    extra: () => <span className="extra-text">July 3, 2021</span>,
     link: "/#/pools",
   },
 ];
