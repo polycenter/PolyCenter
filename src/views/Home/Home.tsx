@@ -36,19 +36,19 @@ function typeWriter(setTyped: Function) {
 
 const infoBoxes = [
   {
-    title: "Community First",
-    text: "The protocol is determined by the community. Proposals are made by and voted on by holders of BACKUP/BNB.",
+    title: "2% Holders Fee",
+    text: "Holders are rewarded with a fee for simply holding.",
     icon: <img src={communityIcon} alt="community" />,
   },
   {
-    title: "SafeGas Token",
+    title: "5% Buy-Back-Burn Fee.",
     text:
-      "SafeGas is the an extra layer for the economy. It act's as a gas token in the system. It can be spent to increase your yields by the Boost functionality. Revenues from purchases are halved 50% towards future products and 50% towards development fund.",
+      "It is used to ensure the longevity of the token by frequently doing buybacks. After buying back the tokens will be burnt. In this way it has also a deflationary effect.",
     icon: <img src={napIcon} alt="community" />,
   },
   {
-    title: "Partnerships",
-    text: "Backup is committed to continuing innovations with other Binance Smart Chain projects.",
+    title: "3% Marketing Fee",
+    text: "The purpose of this fee is to ensure that there is enough budget available for marketing.",
     icon: <img src={connectionIcon} alt="connection" />,
   },
 ];
