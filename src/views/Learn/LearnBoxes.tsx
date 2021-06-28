@@ -13,26 +13,26 @@ type TLearn = {
 
 const LearnBoxes: TLearn[] = [
   {
-    title: "Basics",
+    title: "Farm Poly",
     text: "The basics of liquidity providing and farming.",
     image: school,
-    link: "https://backupfinance.medium.com/",
+    link: "https://farm.polycenter.exchange",
     color: "#138d75",
   },
   {
-    title: "Staking on Backup",
-    text: "How to stake on Backup",
+    title: "Staking on Poly",
+    text: "Stake on Poly",
     image: treausre,
-    link: "https://farm.backup.finance",
+    link: "https://app.polycenter.exchange",
     color: "#7CD10F",
   },
   {
     id: "uni",
-    title: "Risks of liquidity providing",
-    text: "What is impermanent loss? How does automatic market making work?",
+    title: "Poly Swap",
+    text: "A Fully decentralized cross-chain DEX, AMM and Yield farming protocol",
     image: uniswap,
     color: "#9c29ac",
-    link: "https://exchange.backup.finance/#/swap",
+    link: "https://polycenter.exchange",
   },
 ];
 export default LearnBoxes;
