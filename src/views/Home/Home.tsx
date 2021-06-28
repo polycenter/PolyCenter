@@ -130,9 +130,6 @@ function Home() {
                 
                 * Raised funds will be used for marketing. Spots are equal to the whitelist
                 
-                <h2>Token Economics</h2>
-                <p>A 10% tax is charged on each transaction. This can be divided into 3 parts:</b> </p>
-                ♻️ 2% Holders Fee
               </div>
             </div>
             <div className="just-a-container">
