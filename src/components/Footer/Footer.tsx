@@ -30,7 +30,7 @@ function Footer() {
       </div>
       <div className="links">
         <SocialLink
-          href="https://github.com/jaybinancedev"
+          href="https://github.com/polycenterio"
           icon={githubicon}
           title="Github"
           color="#95A5A6"
