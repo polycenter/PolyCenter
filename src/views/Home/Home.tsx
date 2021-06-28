@@ -90,10 +90,9 @@ function Home() {
                   advancements are the priority, creating a much needed utility focus to the blockchain space. The value of POLY is
                   determined by the contribution and innovation of the community as a whole.
                 </p>
-                <h2>Why POLY?</h2>
+                <h2>Swap & Bridge</h2>
                 <p>
-                  Owning <b>$Backup</b> enables your voice to be heard regarding the future of the project by enabling you to vote on and
-                  initiate proposals for the protocol.
+                  Swapping is faster than ever and cross-chain bridging is an unique solution for transfering all your assets across networks like Binance smart chain, Ethereum, TRON etc.
                 </p>
                 <p>
                   Proposal initiation and voting will be avalaible in the near future using a snapshotting system. A gas-relayer system
@@ -103,14 +102,13 @@ function Home() {
                   Owning POLY provides you with unique bonuses on our DeFi-platform by giving your deposited assets a yield bonus according
                   to the amount of POLY you are holding. So you are gaining the upper hand.
                 </p>
-                <h2>Okay, anything more?</h2>
+                <h2>Stake & Farm</h2>
                 <p>
                   Mandatory part of the POLY ecosystem is its <b>collaborations</b> with other projects in the space to expand the reach of
                   the ecosystem.
                 </p>
                 <p>
-                  The community knows that Backup keeps on introducing new interesting projects and that we require the projects to meet a
-                  certain standard.
+                  You can stake stable coins like BNB, BUSD, USDT or POLY token and earn POLY tokens as rewards. By adding your liquidity pairs to the farm you will be able to earn POLY tokens as rewards.
                 </p>
                 <p>
                   POLY is able to provide a platform for the already established or for the upcoming projects who need the initial push.
