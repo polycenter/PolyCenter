@@ -8,11 +8,11 @@ import { ListingsContainer } from "./Listings.styles";
 function Listings() {
   return (
     <ListingsContainer>
-      <h1 style={{ gridColumn: "1/3", justifySelf: "center" }}>Exchange Backup</h1>
+      <h1 style={{ gridColumn: "1/3", justifySelf: "center" }}>Exchange PolyCenter</h1>
       <div className="uniswaps">
         <a
           className="listing zzz-listing"
-          href="https://exchange.backup.finance/#/swap?inputCurrency=0x48e15ABBcb21C7f564c1B5Ae08A9f7829745F6D7"
+          href="https://polycenter.exchange"
           target="blank"
           rel="noopener noreferrer"
         >
@@ -30,7 +30,7 @@ function Listings() {
         </a>
         <a
           className="listing nap-listing"
-          href="https://exchange.backup.finance/#/swap?inputCurrency=0x0E6ef701E9CEF56A516C2e10ad093Be351B6c90f"
+          href="https://polycenter.exchange"
           target="blank"
           rel="noopener noreferrer"
         >
@@ -48,7 +48,7 @@ function Listings() {
         </a>
         <a
           className="listing dream-listing"
-          href="https://bsc.backuptoken.info/token/0x48e15abbcb21c7f564c1b5ae08a9f7829745f6d7"
+          href="https://polycenter.info"
           target="blank"
           rel="noopener noreferrer"
         >
@@ -68,7 +68,7 @@ function Listings() {
       <h1 style={{ gridColumn: "1/3", justifySelf: "center" }}>Find us on</h1>
       <a
         className="listing"
-        href="https://www.coingecko.com/en/coins/backup-finance"
+        href="https://www.coingecko.com/en/coins/polycenter"
         target="blank"
         rel="noopener noreferrer"
       >
@@ -86,7 +86,7 @@ function Listings() {
       </a>
       <a
         className="listing"
-        href="https://coinmarketcap.com/currencies/backup-finance/"
+        href="https://coinmarketcap.com/currencies/polycenter"
         style={{ gridColumn: "1 / 3" }}
       >
         Coinmarketcap
