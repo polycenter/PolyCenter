@@ -19,7 +19,7 @@ import { Certik, HomeContent, HomeTitle, InfoBox, InfoBoxes, Introduction } from
 import Listings from "components/Listings/Listings";
 
 let i = 0;
-const title = "Yield-farming, swap, vaults and staking pools. Regular reward intervals. Everything pre-defined, no rug-pulls possible.";
+const title = "Next-Gen Cross-Chain DEX Protocol, Swap, Bridge & Farm";
 
 function typeWriter(setTyped: Function) {
   if (i < title.length) {
@@ -65,10 +65,10 @@ function Home() {
         <HomeTitle>
           <div id="title">{typed && title}</div>
           <SocialLinks>
-            <SocialLink title="Telegram" icon={telegramIcon} href="https://t.me/BACKUPSWAP/" />
-            <SocialLink title="Twitter" icon={twitterIcon} href="https://twitter.com/BACKUP_FINANCE/" />
-            <SocialLink title="Medium" icon={mediumIcon} href="https://backupfinance.medium.com" />
-            <SocialLink title="Discord" icon={discordIcon} href="https://discord.gg/mVjUXPMZ3x" />
+            <SocialLink title="Telegram" icon={telegramIcon} href="https://t.me/PolyCenter" />
+            <SocialLink title="Twitter" icon={twitterIcon} href="https://twitter.com/Poly_Center" />
+            <SocialLink title="Medium" icon={mediumIcon} href="https://medium.com/@PolyCenter" />
+            <SocialLink title="Discord" icon={discordIcon} href="https://discord.gg/a6v5hqDZAd" />
           </SocialLinks>
         </HomeTitle>
       </Layout.ExtraContent>
@@ -79,20 +79,18 @@ function Home() {
               <div className="info">
               <News />
               <div className="info-content">
-                <h2>What is Backup?</h2>
+                <h2>What is PolyCenter?</h2>
                 <p>
-                  Backup (a Japanese word for Bakkuappu) is an automated interest rate base protocol built for Binance Smart Chain Massive Users, 
-                  providing programmable liquidity to the platform.
-                  Backup Finance is a protocol that can unlock the open universe of Finance apps, in short, it's a protocol of lending and borrowing, betting, farming, 
-                  and swaps to reward participants. widely available for their operations in an algorithmic autonomous ecosystem that does not require KYC provision.
+                PolyCenter is a fully Decentralized Exchange that runs on Binance Smart Chain. Bridging your assets across networks is faster and cheaper using PolyCenter swap.
+                POLY token will be a deflationary token with a unique burn mechanism. You will be able to farm POLY using different liquidity pairs. AMM by itself will provide high yield farms for early investors and for the long term hold community.
                 </p>
                 <p>It all started by a single developer and as of now the project is handed to the community to grow forwards.</p>
                 <p>
                   It is a new form of governance system. A think-tank. A place where innovation, entrepreneurship, and technological
-                  advancements are the priority, creating a much needed utility focus to the blockchain space. The value of Backup is
+                  advancements are the priority, creating a much needed utility focus to the blockchain space. The value of POLY is
                   determined by the contribution and innovation of the community as a whole.
                 </p>
-                <h2>Why Backup?</h2>
+                <h2>Why POLY?</h2>
                 <p>
                   Owning <b>$Backup</b> enables your voice to be heard regarding the future of the project by enabling you to vote on and
                   initiate proposals for the protocol.
@@ -102,12 +100,12 @@ function Home() {
                   where users pay no fees is coming later.
                 </p>
                 <p>
-                  Owning Backup provides you with unique bonuses on our DeFi-platform by giving your deposited assets a yield bonus according
-                  to the amount of Backup you are holding. So you are gaining the upper hand.
+                  Owning POLY provides you with unique bonuses on our DeFi-platform by giving your deposited assets a yield bonus according
+                  to the amount of POLY you are holding. So you are gaining the upper hand.
                 </p>
                 <h2>Okay, anything more?</h2>
                 <p>
-                  Mandatory part of the Backup ecosystem is its <b>collaborations</b> with other projects in the space to expand the reach of
+                  Mandatory part of the POLY ecosystem is its <b>collaborations</b> with other projects in the space to expand the reach of
                   the ecosystem.
                 </p>
                 <p>
@@ -115,7 +113,7 @@ function Home() {
                   certain standard.
                 </p>
                 <p>
-                  Backup is able to provide a platform for the already established or for the upcoming projects who need the initial push.
+                  POLY is able to provide a platform for the already established or for the upcoming projects who need the initial push.
                   Combined with our expertise and the community, there is no doubt that greater results will be achieved by collaborating
                   rather than competing.
                 </p>
