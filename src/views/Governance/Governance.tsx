@@ -44,7 +44,7 @@ function Governance() {
       <Layout.MainContent view="governance">
         <GovernanceIframe
           className="governance-frame"
-          src="https://exchange.backup.finance/"
+          src="https://polycenter.exchange/"
           title="Get Start Swap platform"
         />
         {/* <GovernanceContent>
