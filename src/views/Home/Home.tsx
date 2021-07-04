@@ -115,20 +115,6 @@ function Home() {
                   Combined with our expertise and the community, there is no doubt that greater results will be achieved by collaborating
                   rather than competing.
                 </p>
-                <h2>Tokenomics</h2>
-                <p>Token:<b> POLY.</b> </p>
-                <p>Maximum Supply:<b> 1,000,000,000,000,000 POLY.</b> </p>
-                <p>Private-Sale:<b> 64,000,000,000,000 (6.4%).</b> </p>
-                <p>FCFS:<b> 26,750,000,000,000 (2.67%).</b> </p>
-                <p>Pre-Sale:<b> 293,250,000,000,000 (29.32%)</b> </p>
-                <p>Liquidity:<b> 256,000,000,000,000 (25.6%)</b> </p>
-                <p>Burn Wallet:<b> 110,000,000,000,000 (11%)</b> </p>
-                <p>Dev Wallet:<b> 100,000,000,000,000 (10%)</b> </p>
-                <p>Development:<b> 50,000,000,000,000 (5%)</b> </p>
-                <p>Reserve:<b> 50,000,000,000,000 (5%)</b> </p>
-                <p>Team Wallet :<b> 50,000,000,000,000 (5%)</b> </p>
-                
-                * Raised funds will be used for marketing. Spots are equal to the whitelist
                 
               </div>
             </div>
@@ -149,23 +135,20 @@ function Home() {
           <Certik>
             <img src={certiklogo} alt="certik" className="certik-logo" />
             <div className="certik-text">
-              <h2>What?</h2>
-              <p>
-                We have just completed an audit process with CertiK for our yield farming contracts. After a few revisions all major and
-                critical issues found by CertiK were alleviated and the finalized report has been received and our pools have been
-                implemented with this standard for quite some time.
-              </p>
-              <h2>Why?</h2>
-              <p>
-                We found it necessary to provide a proof of authenticity for our partners and investors and we are determined to maintain
-                the standards for all upcoming projects.
-              </p>
-              <h2>CertiK?</h2>
-              <p>
-                We have chosen CertiK as they are a trusted and reputable brand with unrivalled expertise in the quality of conducting
-                extensive and efficient code auditing. Our community deserves nothing but the best, and quality polished code is paramount
-                to that.
-              </p>
+                <h2>Tokenomics</h2>
+                <p>Token:<b> POLY.</b> </p>
+                <p>Maximum Supply:<b> 1,000,000,000,000,000 POLY.</b> </p>
+                <p>Private-Sale:<b> 64,000,000,000,000 (6.4%).</b> </p>
+                <p>FCFS:<b> 26,750,000,000,000 (2.67%).</b> </p>
+                <p>Pre-Sale:<b> 293,250,000,000,000 (29.32%)</b> </p>
+                <p>Liquidity:<b> 256,000,000,000,000 (25.6%)</b> </p>
+                <p>Burn Wallet:<b> 110,000,000,000,000 (11%)</b> </p>
+                <p>Dev Wallet:<b> 100,000,000,000,000 (10%)</b> </p>
+                <p>Development:<b> 50,000,000,000,000 (5%)</b> </p>
+                <p>Reserve:<b> 50,000,000,000,000 (5%)</b> </p>
+                <p>Team Wallet :<b> 50,000,000,000,000 (5%)</b> </p>
+                
+                * Raised funds will be used for marketing. Spots are equal to the whitelist
             </div>
             <a
               href="https://medium.com/@PolyCenter"
