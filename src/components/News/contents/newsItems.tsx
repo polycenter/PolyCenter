@@ -52,7 +52,7 @@ const newsItems: TNews[] = [
   },
   {
     id: 4,
-    text: () => <span className="main-text">Cats are here!</span>,
+    text: () => <span className="main-text">Polyc are here!</span>,
     extra: () => (
       <span className="extra-text">
         Go see them at our pool section by clicking here!
@@ -62,7 +62,7 @@ const newsItems: TNews[] = [
   },
   {
     id: 5,
-    text: () => <span className="main-text">Cats are here!</span>,
+    text: () => <span className="main-text">Polyc are here!</span>,
     extra: () => (
       <span className="extra-text">
         Go see them at our pool section by clicking here!
@@ -79,7 +79,7 @@ const newsItems: TNews[] = [
     ),
     extra: () => (
       <span className="extra-text">
-        You can claim your POLY compensations when rounds begin, just click here!
+        You can claim your POLYC compensations when rounds begin, just click here!
       </span>
     ),
     link: "/#/compensation",
@@ -211,7 +211,7 @@ const newsItems: TNews[] = [
   {
     id: 17,
     text: () => <span className="main-text">POLY Live Token sale</span>,
-    extra: () => <span className="extra-text">July 3, 2021</span>,
+    extra: () => <span className="extra-text">July 15, 2021</span>,
     link: "/#/pools",
   },
 ];
