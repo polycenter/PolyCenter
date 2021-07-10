@@ -138,9 +138,8 @@ function Home() {
                 <h2>Tokenomics</h2>
                 <p>Token:<b> POLY.</b> </p>
                 <p>Maximum Supply:<b> 1,000,000,000,000,000 POLY.</b> </p>
-                <p>Private-Sale:<b> 64,000,000,000,000 (6.4%).</b> </p>
-                <p>FCFS:<b> 26,750,000,000,000 (2.67%).</b> </p>
-                <p>Pre-Sale:<b> 293,250,000,000,000 (29.32%)</b> </p>
+                <p>Private-Sale:<b> 84,000,000,000,000 (8.4%).</b> </p>
+                <p>Pre-Sale + FCFS:<b> 300,000,000,000,000 (30%)</b> </p>
                 <p>Liquidity:<b> 256,000,000,000,000 (25.6%)</b> </p>
                 <p>Burn Wallet:<b> 110,000,000,000,000 (11%)</b> </p>
                 <p>Dev Wallet:<b> 100,000,000,000,000 (10%)</b> </p>
