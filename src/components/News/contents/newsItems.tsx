@@ -191,8 +191,8 @@ const newsItems: TNews[] = [
     extra: () => (
       <span className="extra-text">
         Head over to pools to see them out. They include a global boost for your
-        total Backup staked in the vault. (this includes underlying tokens in both
-        Backup/Bnb)
+        total POLYC staked in the vault. (this includes underlying tokens in both
+        POLYC/BNB)
       </span>
     ),
     link: "/#/pools",
@@ -210,7 +210,7 @@ const newsItems: TNews[] = [
   },
   {
     id: 17,
-    text: () => <span className="main-text">POLY Live Token sale</span>,
+    text: () => <span className="main-text">POLYC Live Token sale</span>,
     extra: () => <span className="extra-text">July 15, 2021</span>,
     link: "/#/pools",
   },
