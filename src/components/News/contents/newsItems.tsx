@@ -25,7 +25,7 @@ const newsItems: TNews[] = [
     id: 1,
     text: () => (
       <span className="main-text">
-        CertiK audit process has been finalized!
+        Techrate audit process has been finalized!
       </span>
     ),
     extra: () => <span className="extra-text">Press to learn more</span>,
@@ -199,7 +199,7 @@ const newsItems: TNews[] = [
   },
   {
     id: 16,
-    text: () => <span className="main-text">POLY pools are here</span>,
+    text: () => <span className="main-text">POLYC pools are here</span>,
     extra: () => (
       <span className="extra-text">
         POLY/BNB LP staking with 600 POLY as reward and POLY/ELE with 400 POLY as
