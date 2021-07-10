@@ -129,7 +129,7 @@ const newsItems: TNews[] = [
   {
     id: 10,
     text: () => (
-      <span className="main-text">A new pool is available, POLY to POLY!</span>
+      <span className="main-text">A new pool is available, POLYC to POLYC!</span>
     ),
     extra: () => <span className="extra-text">Head over to the pools!</span>,
     link: "/#/pools",
