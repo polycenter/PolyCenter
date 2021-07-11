@@ -142,10 +142,8 @@ function Home() {
                 <p>Pre-Sale + FCFS:<b> 300,000,000,000,000 (30%)</b> </p>
                 <p>Liquidity:<b> 256,000,000,000,000 (25.6%)</b> </p>
                 <p>Burn Wallet:<b> 110,000,000,000,000 (11%)</b> </p>
-                <p>Dev Wallet:<b> 100,000,000,000,000 (10%)</b> </p>
-                <p>Development:<b> 50,000,000,000,000 (5%)</b> </p>
-                <p>Reserve:<b> 50,000,000,000,000 (5%)</b> </p>
-                <p>Team Wallet :<b> 50,000,000,000,000 (5%)</b> </p>
+                <p>Farming:<b> 200,000,000,000,000 (20%)</b> </p>
+                <p>Marketing :<b> 50,000,000,000,000 (5%)</b> </p>
                 
                 * Raised funds will be used for marketing. Spots are equal to the whitelist
             </div>
